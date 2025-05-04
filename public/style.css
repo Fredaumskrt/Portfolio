@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+/* Cor de fundo da pagina */
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: White;
+    overflow: hidden;
+    overflow-y: scroll;
+}
