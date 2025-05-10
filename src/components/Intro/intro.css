@@ -1,0 +1,65 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 250vw;
+    max-width: 60rem; 
+    /* AQUI MUDA O TAMANHO DA PAGINA FOTO + APRESENTACAO */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* MUDA A MINHA IMAGEM, TAMANHO DIMENSAO... */
+.bg{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+/* POSICAO DA APRESENTACAO */
+.introContent{
+    height: 80vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* POSICAO DO HELLO  */
+.hello{
+    font-size: 1.75ren;
+    font-weight: 100;
+}
+
+.introName{
+    color: orangered;
+}
+
+/* MUDA O PARAGRAFO  */
+.introPara{
+    font-size: small;
+    font-weight: 300;
+    /* espacamento */
+    letter-spacing: 1px;
+}
+/* MINUTO DO VIDEO 55.39 */
+/* MUDA AS POS DO HIRE ME */
+.btn{
+    background: GREY;
+    margin: 1rem 0;
+    padding: 0.10rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.20rem;
+    height: 1rem;
+
+}

@@ -1,20 +1,25 @@
 import React from 'react'
 import './navbar.css';
-import logo from '../../../assets/logo.png';
-
+import logo from '../../assets/logo.png';
+import { Link } from 'react-scroll';  
+import contactImg from '../../assets/contact.png'
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        // ARRUMAR A LOGO PRA ENCAIXAR NO TAMANHO
+        <nav className="navbar"> 
             <img src={logo} alt="Logo" className='logo'/>
             <div className="desktopMenu">
-
+                <Link className="desktopMenuListItem">Home</Link>
+                <Link className="desktopMenuListItem">About</Link>
+                <Link className="desktopMenuListItem">Portfolio</Link>
+                <Link className="desktopMenuListItem">Clients</Link>
             </div>
             <button className="desktopMenuBtn">
-                <img src = "" alt ="" className="desktopMenuImg"/> Contact Me
+                <img src = {contactImg} alt ="" className="desktopMenuImg"/> Contact Me
             </button>
 
         </nav>
     )
 }
-//  PAREI NO MINUTO 17:10 DO VIDEO, ESTOU TENTANDO IMPORTAR A LOGO
+
 export default Navbar
