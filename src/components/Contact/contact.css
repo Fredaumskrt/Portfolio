@@ -1,0 +1,106 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0; /* Adicionado espaçamento interno */
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333; /* Cor mais definida */
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    /* max-width: 50rem;
+    padding: 0 2rem;
+    color: #666;
+    margin-bottom: 2rem; Mais espaçamento abaixo */
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 1.5rem; /* Espaço uniforme entre as imagens */
+    width: 100%;
+}
+
+.clientImg {
+    object-fit: contain; /* Mantém proporção sem cortar */
+    width: 23%; /* Largura automática */
+    height: 4rem; /* Altura fixa para uniformidade */
+    max-width: 9rem;
+    padding: 0.25rem;
+    transition: transform 0.3s ease; /* Efeito hover suave */
+}
+
+#clients{
+    padding: 2rem;
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,.email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin:2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    
+}
+
+.clientImg:hover {
+    transform: scale(1.05); /* Efeito de zoom sutil ao passar mouse */
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1)); 
+ }  
+
+ 

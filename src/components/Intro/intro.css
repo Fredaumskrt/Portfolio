@@ -47,7 +47,7 @@
     /* espacamento */
     letter-spacing: 1px;
 }
-/* MINUTO DO VIDEO 55.39 */
+
 /* MUDA AS POS DO HIRE ME */
 .btn{
     background: GREY;
@@ -62,4 +62,22 @@
     margin: 0 0.20rem;
     height: 1rem;
 
+}
+
+@media screen and (max-width: 840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bg{
+        right: -2 0vww;
+    }
 }
